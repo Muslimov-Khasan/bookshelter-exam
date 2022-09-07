@@ -32,7 +32,7 @@ function backgroundChek() {
 
     chkbx.addEventListener('change', () => {
     if (chkbx.checked) {
-        document.body.style.backgroundColor = '#000';
+        document.body.style.backgroundColor = 'darkgray';
     } else {
         document.body.style.backgroundColor = '#fff';
     }
